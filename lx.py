@@ -7,11 +7,11 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 import timeit
 
 botStart = time.time()
-cl = LINE("djry0416@gmail.com","djry9420")
-k1 = LINE("nolga3398@gmail.com","djry9420")
-k2 = LINE("og773030@gmail.com","djry9420")
-k3 = LINE("ogorinivic@gmail.com","djry9420")
-k4 = LINE("zgoryunova59@gmail.com","djry9420")
+cl = LINE("ENz9HiWP1GMdlXqC0Rk9.ru9aiTYvoAL9lAzQ+siEUq.z1l2LQtM2j9YC0sfeQWuytEzDcJ+CTOens+mikqRyJQ=")
+k1 = LINE("ENRzpEEwIOh2PhcbZFcb.O3gM/8W+lhDUWsy/dxrCUW.zODGaWTUWEMMNEH6NLRHYJb8kya0ePUmWDgHo0SzxtU=")
+k2 = LINE("EN5aV0de3pmbI3gqvVl0.TQuvGUe+OXXocehvIoIIKa.cxKXKJdTl+eNKY49dZ0nJ38SEo61ULySVQDH9993+Ps=")
+k3 = LINE("ENFtbVaUMn75OPi7HvH8.+Es3tzQcdLmg7lYXW5GFIa.CFiThb5i9MKbBiwIKIdDBT0jMucfSVHM1z45tp9NFI4=")
+k4 = LINE("ENAUCoYXYM7J3TUPMIma.cqpaTMb8mHjkbrr2El8xQG.qWbeeK3trpLwu6SPFyp8PuFccu3xWNHWFrAPRrIs4u8=")
 print ("[ 登錄系統 ]成功(  -᷄ω-᷅ )")
 clMID = cl.profile.mid
 k1MID = k1.profile.mid
@@ -20,7 +20,7 @@ k3MID = k3.profile.mid
 k4MID = k4.profile.mid
 
 Bots = [clMID,k1MID,k2MID,k3MID,k4MID]
-god = ['u7dee0949b799e28a38085c0660a99ab2']
+god = ['ub6f9d53713c5869f0d78e71febe13837']
 oepoll = OEPoll(cl)
 
 banOpen = codecs.open("ban.json","r","utf-8")
