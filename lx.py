@@ -11,7 +11,7 @@ cl = LINE("EN8M4CX6VxWqvUGswI55.I7AJcrfysUIaxrqdad1azq.sCD6QR7EEHcGYhN4mjyn60eBF
 k1 = LINE("ENAvWngY8z5flW55zBo5.SUkPh0TjwPGD3SwfdjFMbq.im6H1Kl/f7GSZGzn94opGVIcGWPcdbZGoHwZxDRSaT4=") 
 k2 = LINE("ENzRZ2p0c9TjdDdoGTE9.kKQa4lOKUB85GqmO1mixIq.dlpenjksUVB55Aq1j8AXe96MMmaZZRIf2OCU9plBSOQ=") 
 k3 = LINE("ENLk2iO2hOezQCTT5lsd.Wo5AorAbkVgaweyzMEiZtq.X4T6M9XebHS39A5veRHlo0lZXe36kOezTcp93mk/+b4=") 
-k4 = LINE("ENFtbVaUMn75OPi7HvH8.+Es3tzQcdLmg7lYXW5GFIa.CFiThb5i9MKbBiwIKIdDBT0jMucfSVHM1z45tp9NFI4=")
+k4 = LINE("ENTeF8JayyUU3iRxDPZ9.ru9aiTYvoAL9lAzQ+siEUq.9Io1k9lB+DoHZA93AyRjHoAk2PfM/jpSBCHOxMs3QRo=")
 print ("[ 登錄系統 ]成功(  -᷄ω-᷅ )")
 clMID = cl.profile.mid
 k1MID = k1.profile.mid
@@ -101,7 +101,7 @@ def sendMessageWithMention(to, mid):
     except Exception as error:
         logError(error)
 def helpmessage():
-    helpMessage = """🔥 〘弑神 戰爭〙 🔥  
+    helpMessage = """🔥〘 𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 〙 🔥  
 🔥   Gc-剩餘票數
 🔥   速度-速度
 🔥   Test-速度
@@ -113,10 +113,10 @@ def helpmessage():
 🔥   Bl-黑單
 🔥   Adminlist-權限者清單
 🔥   標記-全員標記
-╚〘作者:🔥  戰爭機器 🔥  〙"""
+╚〘作者:🔥  𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 🔥  〙"""
     return helpMessage
 def helpmessagetag():
-    helpMessageTag ="""🔥 〘弑神 戰爭〙 🔥  
+    helpMessageTag ="""🔥 〘 𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 〙 🔥  
 🔥   Gadd @-新增群管
 🔥   Gdel @-刪除群管
 🔥   GM-查看本群管理者
@@ -150,14 +150,14 @@ def helpmessagetag():
 🔥 Clear ban-清除黑單
 🔥 Kg-全群掃黑
 🔥 Kill ban-當前群組掃黑
-╚〘作者:🔥  戰爭機器 🔥〙"""
+╚〘作者:🔥  𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 🔥〙"""
     return helpMessageTag
 def helpn():
-    helpN = """ 🔥 〘弑神 戰爭〙 🔥
+    helpN = """ 🔥 〘 𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 〙 🔥
 🔥 Gc-查詢自己剩餘票數
 🔥 速度-速度
 🔥 GM-查看本群管理者
-╚〘作者:🔥  戰爭機器 🔥 〙"""
+╚〘作者:🔥  𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 🔥 〙"""
     return helpN
 
 wait = {
@@ -210,7 +210,7 @@ def lineBot(op):
         if op.type == 5:
             cl.findAndAddContactsByMid(op.param1) 
             cl.sendMessage(op.param1, "🔥你好 {} 謝謝你加我為好友，如有需求請向以下友資購買票卷 ".format(str(cl.getContact(op.param1).displayName)))
-            cl.sendContact(op.param1,'u4ace3ef40dc897bdcee947d184909199')
+            cl.sendContact(op.param1,'ub6f9d53713c5869f0d78e71febe13837')
         if op.type ==19:
             a = 0
             if op.param2 in ban["admin"] or op.param2 in ban["owners"]:
