@@ -8,10 +8,10 @@ import timeit
 
 botStart = time.time()
 cl = LINE("EN8M4CX6VxWqvUGswI55.I7AJcrfysUIaxrqdad1azq.sCD6QR7EEHcGYhN4mjyn60eBFe/Md58/0Pk5gSCfG+s=") 
-k1 = LINE("ENAvWngY8z5flW55zBo5.SUkPh0TjwPGD3SwfdjFMbq.im6H1Kl/f7GSZGzn94opGVIcGWPcdbZGoHwZxDRSaT4=") 
-k2 = LINE("ENzRZ2p0c9TjdDdoGTE9.kKQa4lOKUB85GqmO1mixIq.dlpenjksUVB55Aq1j8AXe96MMmaZZRIf2OCU9plBSOQ=") 
-k3 = LINE("ENLk2iO2hOezQCTT5lsd.Wo5AorAbkVgaweyzMEiZtq.X4T6M9XebHS39A5veRHlo0lZXe36kOezTcp93mk/+b4=") 
-k4 = LINE("ENTeF8JayyUU3iRxDPZ9.ru9aiTYvoAL9lAzQ+siEUq.9Io1k9lB+DoHZA93AyRjHoAk2PfM/jpSBCHOxMs3QRo=")
+k1 = LINE("ENR9vDJRhzBZmzYfc179.kKQa4lOKUB85GqmO1mixIq.t8O5GQswPFPBI7KMTZ9qVJGLGawRYm8s5vm61YCrxew=")
+k2 = LINE("ENX9fgeJdxa7zdlfQZtd.Wo5AorAbkVgaweyzMEiZtq.VouhQmwRhuTWfHXMNxxrWLR1JotY8FCWTQJuixJL7tg=")
+k3 = LINE("ENPGEi21kh0VadlxJYs5.SUkPh0TjwPGD3SwfdjFMbq.HJVEA/FooUbvYUp+jt7XhDIjuYOkv4iopI+vZ0HrvAY=")
+k4 = LINE("ENSEkNoBlXQajsR9tsYc.za3+ZjFkdwx4tkMsS55p3a.jZRNkUzZPvKdSjEjt3slQ1XWqMOet8DxqBR4sOGFyRo=")
 print ("[ 登錄系統 ]成功(  -᷄ω-᷅ )")
 clMID = cl.profile.mid
 k1MID = k1.profile.mid
@@ -49,7 +49,7 @@ def botJoin(to):
 def sendMention(to, text="", mids=[]):
     arrData = ""
     arr = []
-    mention = "@zeroxyuuki "
+    mention = "@yuan "
     if mids == []:
         raise Exception("Invaliod mids")
     if "@!" in text:
@@ -185,8 +185,8 @@ if k3MID not in ban["owners"]:
     ban["owners"].append(k3MID)
 if k4MID not in ban["owners"]:
     ban["owners"].append(k4MID)
-if "u7dee0949b799e28a38085c0660a99ab2" not in ban["owners"]:
-    ban["owners"].append("u7dee0949b799e28a38085c0660a99ab2")
+if "ub6f9d53713c5869f0d78e71febe13837" not in ban["owners"]:
+    ban["owners"].append("ub6f9d53713c5869f0d78e71febe13837")
 def lineBot(op):
     try:	
         if op.type == 11:
