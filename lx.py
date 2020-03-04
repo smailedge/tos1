@@ -7,11 +7,11 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 import timeit
 
 botStart = time.time()
-cl = LINE("EN8M4CX6VxWqvUGswI55.I7AJcrfysUIaxrqdad1azq.sCD6QR7EEHcGYhN4mjyn60eBFe/Md58/0Pk5gSCfG+s=") 
-k1 = LINE("ENR9vDJRhzBZmzYfc179.kKQa4lOKUB85GqmO1mixIq.t8O5GQswPFPBI7KMTZ9qVJGLGawRYm8s5vm61YCrxew=")
-k2 = LINE("ENX9fgeJdxa7zdlfQZtd.Wo5AorAbkVgaweyzMEiZtq.VouhQmwRhuTWfHXMNxxrWLR1JotY8FCWTQJuixJL7tg=")
-k3 = LINE("ENPGEi21kh0VadlxJYs5.SUkPh0TjwPGD3SwfdjFMbq.HJVEA/FooUbvYUp+jt7XhDIjuYOkv4iopI+vZ0HrvAY=")
-k4 = LINE("ENSEkNoBlXQajsR9tsYc.za3+ZjFkdwx4tkMsS55p3a.jZRNkUzZPvKdSjEjt3slQ1XWqMOet8DxqBR4sOGFyRo=")
+cl = LINE("EOcNQARvc2bPSuhOYKG3.4cs2d/BV+2KkjEnK/8KmeW.1ePhucW1fhntHrLS4+LhdXGYJ0JTRCuXqXtw2hHbSeM=") 
+k1 = LINE("EOaNWLnVkwRC9edthUlb.ZB2HNsOg5RIYSrMEpF+BcW.HyYMSf6yNnVPW/Xc+YcGjqR/AEi1k5BYyIysqCloVLk=")
+k2 = LINE("EON0V7ucXXcJC5quMvUf.+w7oqvgptiHgbBqtFx7oBW.kdd/fvbAmwLfJFgz0YX4JcIRZDP+425J10ZVelhSbwU=")
+k3 = LINE("EOR9qd2imHDZdRnZ4qRe.NecjnZxYLla5TedDbvmkdG.zPDWHeE8gfzvJljzlAPAVgu0Oqr8eJ4EOWIVqgtS4eY=")
+k4 = LINE("EOGW0EDnLFtO4vjJAFz9.cgpgfn7ktpjC+ZT9xaoN/q.jHXLq3BpeVUL5K4kujSK7fMdrSln/ig+1sINmKYb9ds=")
 print ("[ 登錄系統 ]成功(  -᷄ω-᷅ )")
 clMID = cl.profile.mid
 k1MID = k1.profile.mid
